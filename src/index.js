@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App'
-import Card from './Card'
+import App from './containers/App'
 import * as serviceWorker from './serviceWorker';
 import 'tachyons'
-import Cardlist from './Cardlist'
-import { robots } from './robots'
 
 ReactDOM.render(
  <App/>,
